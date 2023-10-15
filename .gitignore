@@ -1,0 +1,44 @@
+# Ignore Node modules (installed packages)
+/node_modules
+
+# Ignore environment configuration files
+.env
+
+# Ignore build output and production files
+/build
+/dist
+/public
+
+# Ignore logs and runtime data
+/logs
+/temp
+/run
+
+# Ignore OS and editor-specific files
+.DS_Store
+Thumbs.db
+.vscode
+*.sublime-*
+*.suo
+*.user
+*.sln
+node_modules/
+*.log
+
+# Ignore any personal or sensitive information
+*.secret
+*.key
+*.pem
+
+# Ignore database files
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Ignore user-specific files
+.history
+.idea
+
+# Ignore yarn error logs
+yarn-error.log
