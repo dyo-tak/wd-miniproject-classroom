@@ -10,6 +10,9 @@ index = pinecone.Index('youtube-search')
 
 retriever = SentenceTransformer('flax-sentence-embeddings/all_datasets_v3_mpnet-base')
 
+@app.route("/")
+def hello():
+    return "Hello World!"
 
 @app.route("/search", methods=["POST"])
 def search():
